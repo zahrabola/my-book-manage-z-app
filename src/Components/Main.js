@@ -11,7 +11,7 @@ const Main = () => {
           <Header />
           <div className='maincontent'>
             <Routes>
-            <Route Component={Booklist} path='/' />
+            <Route Component={Booklist} path='/' exact={true} />
             <Route Component={AddBook} path="add" /> 
              </Routes>
           </div>

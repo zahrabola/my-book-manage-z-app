@@ -2,13 +2,13 @@ import React from 'react';
 import BookForm from './BookForm';
 
 const AddBook = () => {
-    const handleonSubmit = (book) => {
+    const handleOnSubmit = (book) => {
         console.log(book)
     }
     return (
         <div>
             <h3>AddBook</h3>
-            <BookForm handleonSubmit ={handleonSubmit}/>
+            <BookForm  handleOnSubmit={handleOnSubmit} />
         </div>
     );
 }

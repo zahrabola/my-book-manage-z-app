@@ -14,11 +14,12 @@
   gap: 1rem;
 }
 
-.link{
+.Links{
   text-decoration: none;
   border: 1px solid black;
   padding: 0.5rem 2rem;
   color: black;
+
 }
 .active {
   background: black;
